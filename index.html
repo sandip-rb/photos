@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photos | Redbit</title>
+    <meta name="description" content="Redbit Photos - Your personal photo storage" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#000000" />
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.pathname)
+          history.replaceState(null, null, redirect);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-QJlnZl7B.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-6PX5LLm_.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
